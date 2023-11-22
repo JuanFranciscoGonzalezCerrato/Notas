@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eae0d5;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    background-color: #b7a69e;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+	background-color: #8c6358;
+    margin-right: 10px;
+
+}
+button#boton{
+	background-color: #8c6358;
+		
+}
+
+button#deleteAllButton {
+    background-color: #8c6358;
+    margin-right: 10px;
+}
+
+button#boton {
+    background-color: #a38678;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.note {
+    background-color: #f2e0d5;
+    width: 280px;
+    height: 280px;
+    border: 1px solid #ae997f;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.note p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #52494a;
+    overflow-wrap: break-word;
+}
+
+.note button {
+    background-color: #8c6358;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.note button:hover {
+    background-color: #6e4b42;
+}
+
+.note:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
